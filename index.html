@@ -15,6 +15,26 @@
 </head>
 <body>
     <div class="container">
+    <nav class="navbar navbar-expand-sm navbar-dark fixed-top bg-dark">
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="nav navbar-nav mr-auto ">
+            <li class="nav-item">
+                <a class="nav-link active" href="#profile">profile</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#display-4">experience</a>
+            </li>
+            <li class="nav-items">
+                <a class="nav-link" href="#abilities">Abilities</a>
+            </li>
+            <li class="nav-items">
+                <a class="nav-link" href="#projects">projects</a>
+            </li>
+        </ul>
+        </div>
+    </nav>
+</div>
+    <div class="container">
            <div class="jumbotron jumbotron-bg-image">
               <div>
                    <p class="display-4 text-capitalize text-center text-white">aron kipkoech langat</p>
@@ -23,16 +43,16 @@
          </div>
     </div>
 
-    <div class="container">
-        <div class="row">
+    <div class="container ">
+        <div class="row bg-yellow bg-secondary text-white text-capitalize pb-3">
             <div class="col text-center text-capitalize">
-                <h1>profile</h1>
+                <h1 id="profile" class="profile">profile</h1>
                 <p>quate</p>
             </div>
             <div class="row">
                  <div class="col-md-4">
                     <h1> about me</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus, velit. Tempore maiores facere animi a deserunt alias rerum aliquam eos.</p>
+                    <p>I have just over a year of experience as a junior software engineer with First Technology. In my short time there, I've already contributed to over a dozen projects and assisted with managing one project for one of the firm's long-time clients.</p>
                 </div>
 
                 <div class="col-md-4">
@@ -42,8 +62,9 @@
                 <div class="col-md-4">
                     <h1>details</h1>
                     <p>name</p>
-                    <p>name</p>
-                   <p>name</p>
+                    <p>Aron Kipkoech Langat</p>
+                    <p>Age</p>
+                    <p>23</p>
                 </div>
              </div>
        </div>
@@ -51,7 +72,7 @@
        <div>
                <div class="row">
                    <div class="col text-center mt-2">
-                       <p class="display-4">Experiences</p>
+                       <p id="display-4" class="display-4">Experiences</p>
                    </div>
                </div>
                <div class="row">
@@ -61,14 +82,14 @@
                </div>
                <div class="row">
                    <div class="col-md-4">
-                       kabarak univercity
+                       kabarak university
                    </div>
                    <div class="col-md-8">
                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa, doloribus!
                    </div>
 
                    <div class="col-md-4">
-                    kabarak univercity
+                    kabarak university
                    </div>
                    <div class="col-md-8">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa, doloribus!
@@ -95,7 +116,7 @@
 <!-- adding the abilities that i have. add progress bvar in every section -->
        <div>
            <div>
-               <p>abilities</p>
+               <p id="abilities">abilities</p>
                <p>quote</p>
            </div>
            <div>
@@ -104,7 +125,7 @@
            <div>
                <p>HTML</p>
                <p>am good in page layout coding with HTML.</br>my progress is as shown</p>
-               <div class="progress-bar w-75 bg-success progress-bar-striped progress-bar-animated" role="progressbar" aria-valuemin="0" aria-valuemax="100">
+               <div class="progress-bar w-95 bg-success progress-bar-striped progress-bar-animated" role="progressbar" aria-valuemin="0" aria-valuemax="100">
                    95%
                </div>
            </div>
@@ -113,23 +134,23 @@
                <p>MySQL</p>
                <p>am good in page layout coding with HTML.</br>my progress is as shown</p>
                <div class="progress-bar w-75 bg-success progress-bar-striped progress-bar-animated" role="progressbar" aria-valuemin="0" aria-valuemax="100">
-                  95%
+                  75%
                </div>
           </div>
 
           <div>
              <p>css</p>
              <p>am good in page layout coding with HTML.</br>my progress is as shown</p>
-             <div class="progress-bar w-75  progress-bar-striped progress-bar-animated bg-danger" role="progressbar" aria-valuemin="0" aria-valuemax="100">
-                95%
+             <div class="progress-bar w-70  progress-bar-striped progress-bar-animated bg-danger" role="progressbar" aria-valuemin="0" aria-valuemax="100">
+                70%
             </div>
           </div>
 
           <div>
              <p>Javascript</p>
              <p>am good in page layout coding with HTML.</br>my progress is as shown</p>
-             <div class="progress-bar w-75 bg-success progress-bar-striped progress-bar-animated" role="progressbar" aria-valuemin="0" aria-valuemax="100">
-                 95%
+             <div class="progress-bar w-60 bg-success progress-bar-striped progress-bar-animated" role="progressbar" aria-valuemin="0" aria-valuemax="100">
+                 60%
              </div>
           </div>
 
@@ -137,14 +158,14 @@
              <p>JQuery</p>
              <p>am good in page layout coding with HTML.</br>my progress is as shown</p>
              <div class="progress-bar w-75 bg-success progress-bar-striped progress-bar-animated" role="progressbar" aria-valuemin="0" aria-valuemax="100">
-                 95%
+                 75%
              </div>
           </div>
 
        </div>
     <!-- displaying the projects have done -->
     <div>
-        <p  class="display-4 text-center">projects</p>
+        <p  id="projects" class="display-4 text-center">projects</p>
         <p class="i">some of the projects have come to accomplish are</p>
     </div>
     <div class="row ">
@@ -177,6 +198,8 @@
                 <a type="button" href="https://lanarokip.github.io/challange-1/" class="btn btn-info ml-5">visit the page</a>
             </div>
         </div>
+
+        
        
     </div>
     </div>
