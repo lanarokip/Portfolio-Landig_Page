@@ -4,7 +4,7 @@
       background-size: cover;
   }
   .jumbotron{
-    height: 60vh;
+    height: 50vh;
   }
   .jumbotro{
         padding: 2rem 1rem;
@@ -15,7 +15,6 @@
   }
   body{
     color: #3b6fa2;
-    font-family:lobster;
   }
   .success{
       background-image: url(../assets/back2.webp);
