@@ -15,5 +15,7 @@
   }
   body{
     color: #3b6fa2;
-    font-family:lobster;
+  }
+  .success{
+      background-image: url(../assets/back2.webp);
   }
