@@ -9,8 +9,10 @@ This is my personal portfolio. It contains all my details, schools i have gone t
 ### How to get it to your local computer
 * Ensure you are in your prefered folder, where you want it to be set up.
 * run this comand in your terminal git clone
+### live site 
+view [live](https://lanarokip.github.io/Portfolio-Landig_Page/)
 ## Known Bugs
-Currently, i have fixed all the bugs it had, unless you add your code, that you will need to refix any mulfunctioning
+no bugs as of deployment
 ## Technologies Used
 In this project, I used the following technologies:
 * HTML
